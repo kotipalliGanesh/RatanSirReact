@@ -4,6 +4,7 @@ const Comp3=()=>{
     return(
         <>
         <h1>hello</h1>
+            <h2>hii</h2>
         <h1>using Git we are modified</h1>
         <h2>Iam Ganesh</h2>
         <Comp1></Comp1>
