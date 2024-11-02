@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const now=new Date();
+        const date=now.getDate();
+        const day=now.getDay();
+        const monthindex=now.getMonth();
+        const year=now.getFullYear();
+        const days=['Sunday','Monday','Tuesday','wednesday','Thursday','Friday','Saturday'];
+        const months=['Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec']
+      document.writeln('Day:'+days[day]+'<br>');
+      document.writeln('Date:'+date+'th'+'<br>');
+      document.writeln('Month:'+months[monthindex]+'<br>');
+      document.writeln('year:'+year);
+      console.log('Day:'+days[day]);
+      console.log('Date:'+date+'th');
+      console.log('Month:'+months[monthindex]);
+      console.log('year:'+year);
+    </script>
+</body>
+</html>
